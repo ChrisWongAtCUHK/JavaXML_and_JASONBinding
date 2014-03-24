@@ -3,7 +3,7 @@ package blog.xmltype.proporder;
 import javax.xml.bind.annotation.*;
 
 @XmlRootElement
-@XmlType(propOrder = { "ID", "firstName", "lastName" })
+@XmlType(propOrder = {"ID", "firstName", "lastName"})
 public class Customer {
 	private String firstName;
 	private String last_name;

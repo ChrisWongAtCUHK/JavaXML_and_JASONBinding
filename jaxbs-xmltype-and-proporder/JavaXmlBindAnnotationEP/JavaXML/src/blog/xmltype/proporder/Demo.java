@@ -2,6 +2,13 @@ package blog.xmltype.proporder;
 
 import javax.xml.bind.*;
 
+/**
+ * @author Chris Wong
+ * <p>
+ *  <a href="http://blog.bdoughan.com/2012/02/jaxbs-xmltype-and-proporder.html">Demo</a>
+ * </p>
+ *
+ */
 public class Demo {
 
 	/**
@@ -13,9 +20,9 @@ public class Demo {
 		try {
 			jc = JAXBContext.newInstance(Customer.class);
 			Customer customer = new Customer();
-			customer.setFirstName("Jane");
-			customer.setLastName("Doe");
-			customer.setID(123);
+			customer.setFirstName("Chris");
+			customer.setLastName("Wong");
+			customer.setID(924);
 
 			Marshaller marshaller = jc.createMarshaller();
 			marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);

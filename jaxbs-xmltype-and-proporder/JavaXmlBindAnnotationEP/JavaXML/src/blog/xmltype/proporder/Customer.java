@@ -6,7 +6,6 @@ import javax.xml.bind.annotation.*;
  * @author Chris Wong
  *
  */
-@XmlRootElement
 @XmlType(propOrder = {"ID", "firstName", "lastName"})
 public class Customer {
 	private String firstName;

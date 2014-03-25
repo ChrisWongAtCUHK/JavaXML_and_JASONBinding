@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.*;
  *
  */
 @XmlRootElement
-@XmlType(propOrder = {"ID", "firstName", "lastName"})
+@XmlType(propOrder = {"Id", "firstName", "lastName"})
 public class Customer {
 	private String firstName;
 	private String lastName;

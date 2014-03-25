@@ -1,3 +1,5 @@
+<p><h1>Console</h1></p>
+
 <p>com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 2 counts of IllegalAnnotationExceptions</p>
 <p>Property ID is present but not specified in @XmlType.propOrder</p>
 <p>	this problem is related to the following location:</p>
@@ -23,3 +25,6 @@
 <p>	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:637)</p>
 <p>	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:584)</p>
 <p>	at blog.xmltype.proporder.Demo.main(Demo.java:21)</p>
+
+<p><h1>Customer.java: 10</h1></p>
+<p>@XmlType(propOrder = {"Id", "firstName", "lastName"})</p>
